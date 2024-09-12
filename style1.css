@@ -1,0 +1,75 @@
+body {
+    background: rgb(207, 105, 188);
+    background: linear-gradient(90deg,rgba(207,105,188,0.678418795) 0%, rgba(45,100,253,1)100%);
+}
+
+.login h1 {
+    color: black;
+}
+
+.login {
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    height: 400px;
+    width: 300px;
+}
+
+.login form {
+    color: #ccc;
+}
+
+.login form input {
+    border-bottom: 2px solid #ccc;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.login button {
+    background: rgb(207, 105, 188);
+    background: linear-gradient(90deg,rgba(207,105,188,0.678418795) 0%, rgba(45,100,253,1)100%);
+    color: white;
+    height: 40px;
+    width: 140px;
+    transition: color 0.3s linear;
+}
+
+.login button:hover {
+    color: orange;
+}
+
+.login a{
+    text-decoration: none;
+}
+
+label{
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    color: green;
+    padding: 5px;
+    margin: 10px;
+    transition: color 0.3s linear,border-bottom 0.3s linear;
+}
+
+label:hover {
+    color: #4cf409;
+    border-bottom: 2px solid #4cf409;
+}
+
+select{
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: green;
+    padding: 5px;
+    margin: 10px;
+    transition: color 0.3s linear,border-bottom 0.3s linear;
+}
+
+select:hover {
+    color: #4cf409;
+    border-bottom: 2px solid #4cf409;
+}
